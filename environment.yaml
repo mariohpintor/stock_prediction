@@ -1,0 +1,11 @@
+name: proyecto1
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - numpy
+  - pandas
+  - matplotlib
+  - tensorflow
+  - anaconda::scikit-learn
+prefix: //miniconda3/envs/proyecto1
